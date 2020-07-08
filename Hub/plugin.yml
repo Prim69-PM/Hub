@@ -1,0 +1,8 @@
+name: Hub
+main: Prim69\Hub\Main
+api: [3.0.0]
+version: 1.0.0
+author: Prim69
+commands:
+  hub:
+    description: Teleports player to hub §bMade by Prim
