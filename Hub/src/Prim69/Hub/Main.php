@@ -12,9 +12,9 @@ class Main extends PluginBase implements Listener{
 	public function onCommand(CommandSender $sender, Command $cmd, string $label, array $args) : bool{
 		switch($cmd->getName()){
 			case "hub":
-				if($sender instanceof Player){
-					$sender->teleport($this->getServer()->getDefaultLevel()->getSafeSpawn());
-				} else {}
+			  if($sender instanceof Player){
+			     $sender->teleport($this->getServer()->getDefaultLevel()->getSafeSpawn());
+			  }
 			break;
 		}return true;
     }
